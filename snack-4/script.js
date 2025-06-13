@@ -11,3 +11,5 @@ const posts = [
 const autori = posts.map((post) => {
   return post.author;
 });
+
+console.log(autori);
